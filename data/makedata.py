@@ -7,3 +7,4 @@ for i in range(10000):
     compiled+=prompt[i]+" [WP-START] "+response[i]+" [WP-END] "
 f = open("train_10000.txt", "w")
     f.write(compiled)
+f.close()
